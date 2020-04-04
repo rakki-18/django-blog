@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>3e1d95fe-9409-4402-ac89-7a9d0e0f32e4</ProjectGuid>
+    <ProjectGuid>1bba480a-f799-4f64-9fb2-833291dddc1b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>gitignore.py</StartupFile>
+    <StartupFile>urls.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>gitignore</Name>
-    <RootNamespace>gitignore</RootNamespace>
+    <Name>urls</Name>
+    <RootNamespace>urls</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,9 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="..\..\.gitignore">
-      <Link>.gitignore</Link>
-    </Compile>
+    <Compile Include="urls.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
